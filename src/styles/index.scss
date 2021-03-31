@@ -1,7 +1,25 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body{
+    background-color: gray;
+}
 
+.counter{
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.counter div{
+    display: inline-block;
+    font-size: 75px;
+    line-height: 80px;
+    background-color: #101010;
+    color: white;
+    padding: 50px;
+}
+
+/* 
     You can write your own styles here...
     
     
@@ -9,5 +27,4 @@
     other sylesheets into your bunde as well, e.j:
     
     import 'relative/path/to/stylesheet.scss';
-
 */
